@@ -1,6 +1,6 @@
 # Linked list 중간에 노드를 추가한다.
 
-class LinkedList(object):
+class LinkedList(object):  
     def __init__(self):
         self.head = None
     def append(self, value):
@@ -24,8 +24,8 @@ li.insert(idx = 2, value = 9)
 def insert(self, idx, value):
         new_node = Node(value)
         if idx == 0:
-            new_node.next = self.head
-            self.head = new_node
+            new_node.next = self.head # 새로운 노드를 기존의 head 노드와 먼저 연결!
+            self.head = new_node # 새로운 노드를 head로 옮김
         else:
             current = self.head
             for _ in range(idx-1):
