@@ -1,6 +1,6 @@
 # Linked list 중간에 노드를 추가한다.
 
-class LinkedList(object): 
+class LinkedList(object):  
     def __init__(self):
         self.head = None
     def append(self, value):

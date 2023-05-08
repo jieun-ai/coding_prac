@@ -3,6 +3,6 @@ def remove(self, idx):
         self.head = self.head.next # garbage collector가 알아서 처리해준다.
     else:
         current = self.head
-        for _ in range(idx-1):
+        for _ in range(idx-1): 
             current = current.next
         current.next = current.next.next 
