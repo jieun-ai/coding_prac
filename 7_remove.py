@@ -5,4 +5,4 @@ def remove(self, idx):
         current = self.head
         for _ in range(idx-1):
             current = current.next
-        current.next = current.next.next
+        current.next = current.next.next 

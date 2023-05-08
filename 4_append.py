@@ -1,7 +1,7 @@
 class LinkedList(object):
     def __init__(self):
         self.head = None
-    def append(self, value):
+    def append(self, value): 
         new_node = Node(value) # 새 노드를 추가
         if self.head == None: # head가 0이면 = 노드가 하나도 없다면
             self.head = new_node

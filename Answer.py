@@ -34,7 +34,7 @@ class LinkedList(object):
         if idx == 0:
             new_node.next = self.head
             self.head = new_node
-        else:
+        else: 
             current = self.head
             for _ in range(idx-1):
                 current = current.next
