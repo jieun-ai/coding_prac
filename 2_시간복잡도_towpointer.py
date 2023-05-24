@@ -1,7 +1,6 @@
 def twoSum(nums, target):
-    n = len(nums)
     l = 0
-    r = n-1
+    r = len(nums)-1
     nums.sort()
 
     while l<r:
